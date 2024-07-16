@@ -45,7 +45,7 @@ class MainActivity : AppCompatActivity() {
 
 
         var   walletList= listOf(wallet,wallet2,wallet3,wallet4,wallet5,wallet6,wallet7,wallet8)
-        val  WalettAdapter =WalettAdapter(walletList)
+        val  WalettAdapter =WalletViewHolder.WalettAdapter(walletList)
         binding.rvEnwallet.adapter =  WalettAdapter
 
 

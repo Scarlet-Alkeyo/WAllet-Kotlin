@@ -7,7 +7,7 @@
     android:layout_height="match_parent">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/ivMoneyin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="44dp"
@@ -15,7 +15,7 @@
         android:layout_marginBottom="8dp"
         app:layout_constraintBottom_toBottomOf="@+id/tvPrice1"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/tvMoneyIn"
+        app:layout_constraintTop_toTopOf="@+id/tvMoneyin"
         app:srcCompat="@drawable/income" />
 
     <ImageView
@@ -25,7 +25,7 @@
         android:layout_marginStart="44dp"
         android:layout_marginTop="60dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/ivMoneyin"
         app:srcCompat="@drawable/balace" />
 
     <ImageView
@@ -54,7 +54,7 @@
         app:srcCompat="@drawable/transactions" />
 
     <TextView
-        android:id="@+id/tvMoneyIn"
+        android:id="@+id/tvMoneyin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -63,7 +63,7 @@
         android:text="Money IN"
         app:layout_constraintEnd_toStartOf="@+id/imageView3"
         app:layout_constraintHorizontal_bias="0.114"
-        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintStart_toEndOf="@+id/ivMoneyin"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
@@ -76,8 +76,8 @@
         android:text="Kes 42400"
         app:layout_constraintEnd_toStartOf="@+id/imageView3"
         app:layout_constraintHorizontal_bias="0.129"
-        app:layout_constraintStart_toEndOf="@+id/imageView"
-        app:layout_constraintTop_toBottomOf="@+id/tvMoneyIn" />
+        app:layout_constraintStart_toEndOf="@+id/ivMoneyin"
+        app:layout_constraintTop_toBottomOf="@+id/tvMoneyin" />
 
     <TextView
         android:id="@+id/tvMoneyOut"
@@ -105,7 +105,7 @@
         app:layout_constraintTop_toBottomOf="@+id/tvMoneyOut" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/tvBalace"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -125,7 +125,7 @@
         android:layout_marginTop="8dp"
         android:text="Kes 18700"
         app:layout_constraintStart_toEndOf="@+id/imageView2"
-        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+        app:layout_constraintTop_toBottomOf="@+id/tvBalace" />
 
     <TextView
         android:id="@+id/tvTransaction"
@@ -201,7 +201,7 @@
         app:srcCompat="@drawable/expense_trx" />
 
     <TextView
-        android:id="@+id/tvSalary"
+        android:id="@+id/tvSalarary"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="27dp"
@@ -218,7 +218,7 @@
         android:layout_marginTop="8dp"
         android:text="Kes 40000"
         app:layout_constraintStart_toEndOf="@+id/imageView6"
-        app:layout_constraintTop_toBottomOf="@+id/tvSalary" />
+        app:layout_constraintTop_toBottomOf="@+id/tvSalarary" />
 
     <TextView
         android:id="@+id/tvDate1"
